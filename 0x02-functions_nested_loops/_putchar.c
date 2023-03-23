@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _putchar - write the charecter c to stdout 
+ * &c: the character to print
  *
  * Return: on sucess 1.
- * 	on error. -1 is returnd, and errno is set appropriatly.
+ * 	   on error. -1 is returnd, and errno is set appropriatly.
  */
 
 int _putchar(char c)

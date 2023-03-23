@@ -1,17 +1,20 @@
 #include "main.h"
- /**
-  *prints _putchar using putchar prototype
-  *
-  * return: Always 0 (success)
-  */
-int main(void)
-{
-	char str[] = "_putchar";
-	int ch;
+	/**
+	 *int main(void): - print _putchar
+	 * is written by adam
+	 * Return: 0
+	 */
 
-	for (ch = 0; ch < 8: ch++)
-		_putchar(str[ch];
+	int main(void)
+	{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
-
 	return (0);
-}
+	}
