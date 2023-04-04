@@ -7,23 +7,23 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int n = 0;
-	int r;
+	unsigned int nano = 0;
+	int recto;
 
 	while (*s)
 	{
-		for (r = 0; accept[r]; r++)
+		for (recto = 0; accept[recto]; recto++)
 		{
-			if (*s == accept[r])
+			if (*s == accept[recto])
 			{
-				n++;
+				nano++;
 				break;
 			}
-			else if (accept[r + 1] == '\0')
-				return (n);
+			else if (accept[recto + 1] == '\0')
+				return (nano);
 		}
 		s++;
 	}
-	return (n);
+	return (nano);
 }
 
