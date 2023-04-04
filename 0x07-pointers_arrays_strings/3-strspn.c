@@ -4,7 +4,7 @@
  * @s: input
  * @accept: input
  *
- * Return: the pointer to dest.
+ * Return: always 0.
 */
 unsigned int _strspn(char *s, char *accept)
 {
