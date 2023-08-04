@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
 	for (conter = 0; conter < 5 && conter >= 0; conter++)
 	{
-		while (num >= coins[j])
+		while (num >= coins[conter])
 		{
 			result++;
 			num -= coins[conter];
